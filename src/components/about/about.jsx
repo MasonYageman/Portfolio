@@ -9,12 +9,12 @@ const Header = (props) =>{
             <div className="column large-9 tab-12 s-about__content">
               <h3>About Me</h3>
               <p>
-              Mason Yageman is a Front-end Web Developer passionate about turning big ideas into reality. As a graduate of Wayne State University,
-               he has worked on several teams to develop innovative web and database projects. Outside of school, Mason has worked with multiple companies such as, 
-               Store Upward and Our Daily Bread Ministries, as a Software Engineer. During his time at these companies he was able to collaborate with various teams to 
-               design, plan, and implement new conceptions. Mason worked closesly with Front-End technologies such as React, HTML & CSS, as well as multiple Service Layer and Back-End 
-               technologies, Serverless, AWS, Node.JS, KOA, etc. When Mason finds himself away from his keyboard, he is usually spending his time playing volleyball, 
-               enjoying the outdoors, or enjoying time with friends. Keep scrolling to learn more!
+              I am a Front-end Web Developer passionate about turning big ideas into reality. As a graduate of Wayne State University, I have worked on several teams
+               to develop innovative web and database projects. Outside of school, I have worked with multiple companies such as, Store Upward and Our Daily Bread
+                Ministries, as a Software Engineer Intern. During my time at these companies I was able to collaborate with various teams to design, plan, and implement
+                 new conceptions. I worked closely with Front-End technologies such as React, HTML & CSS, as well as multiple Service Layer and Back-End technologies,
+                  Serverless, AWS, Node.JS, KOA, etc. When I find myself away from my keyboard, I am usually spending my time playing volleyball, enjoying the outdoors,
+                   or enjoying time with friends. Keep scrolling to learn more!
               </p>
               <hr />
               <div className="row s-about__content-bottom">

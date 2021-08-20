@@ -1,7 +1,7 @@
 const Resume = props => {
 
       return (
-  
+        <>
         <section id="resume" className="s-resume target-section">
           <div className="row s-resume__section">
             <div className="column large-3 tab-12">
@@ -69,6 +69,49 @@ const Resume = props => {
               </div> {/* end resume-block */}
             </div>
           </div> {/* s-resume__section */}
+          </section>
+          <section id="portfolio" className="s-portfolio target-section">
+            <div className="row s-resume__section">
+              <div className="column large-3 tab-12">
+                <h3 className="section-header-allcaps">Projects</h3>
+              </div>
+              <div className="column large-9 tab-12">
+                <div className="resume-block">
+                  <div className="resume-block__header">
+                    <h4 className="h3">Line Up Task Manager</h4>
+                    <p className="resume-block__header">
+                      <span>Angular, Google Firestore, JavaScript, Node, Git, Mocha   </span> 
+                      <span className="resume-block__header-date">
+                        August 2020
+                      </span>
+                    </p>
+                  </div>
+                  <p>
+                  Lead a team of six people to make a dynamic single page Angular application. Line-up used a 
+                  CRUD database and relied on using observables and two way databinding to synchronize data between 
+                  the client and the Google Firestore database.
+                  </p>
+                </div> {/* end resume-block */}
+                <hr/>
+                <div className="resume-block">
+                  <div className="resume-block__header">
+                    <h4 className="h3">Covid-19 Statistic Web App</h4>
+                    <p className="resume-block__header">
+                      <span>Python, Django, JSON </span> 
+                      <span className="resume-block__header-date">
+                        April 2020
+                      </span>
+                    </p>
+                  </div>
+                  <p>
+                  Django Web Application that uses REST APIs to display an updated 
+                  graph showing the confirmed cases of covid-19 in the U.S. compared to Italy.
+                  </p>
+                </div> {/* end resume-block */}
+              </div>
+            </div> {/* s-resume__section */}
+            </section>
+          <section id="resume" className="s-resume ">
           <div className="row s-resume__section">
             <div className="column large-3 tab-12">
               <h3 className="section-header-allcaps">Skills</h3>
@@ -77,7 +120,7 @@ const Resume = props => {
               <div className="resume-block">
                 <p>
                   Mason worked with teams that handled the Front-end, Middle-ware, and Back-end services while at Our Daily Bread Ministries
-                  as well as being the Software lead on his project at Store Upward. The following shows his exposure to and experience with the technologies used during these times.
+                  as well as during his time as the Software lead on his project at Store Upward. The following shows his exposure to and experience with the technologies used during these times.
                 </p>
                 <ul className="skill-bars-fat">
                   
@@ -121,7 +164,9 @@ const Resume = props => {
               </div> {/* end resume-block */}
             </div>
           </div> {/* s-resume__section */}
-        </section>
+          </section>
+        </>
+        
       );
     }
     export default Resume;
