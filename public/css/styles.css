@@ -1592,6 +1592,13 @@ body {
     padding: 0;
 }
 
+.masonClass h3:hover, h3:focus, h3:active {
+        color: var(--color-1);
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        outline: 0;
+}
+
 /* ------------------------------------------------------------------- 
  * ## links
  * ------------------------------------------------------------------- */
@@ -2001,7 +2008,10 @@ button,
 .btn {
     margin-bottom: var(--vspace-0_5);
 }
-
+.btn.masonBtn {
+    margin-right: 10px;
+    margin-left: 10px 
+}
 input, 
 textarea, 
 select, 
@@ -3936,7 +3946,8 @@ input[type="button"].btn--primary:focus {
 }
 
 .resume-block__header-date::before {
-    content: "\2022";
+    content: "- ";
+    margin: 3px;
     color: var(--color-text);
     margin-right: .2rem;
 }

@@ -8,39 +8,69 @@ const Resume = props => {
               <h3 className="section-header-allcaps">Career</h3>
             </div>
             <div className="column large-9 tab-12">
+            <div className="resume-block">
+                <div className="resume-block__header">
+                <a href="https://odb.org" ><h4 className="h3"> Our Daily Bread Ministries</h4> </a> 
+                  <p className="resume-block__header-meta">
+                    <span> Software Engineer</span> 
+                    <span className="resume-block__header-date">
+                      September 2021 - Present
+                    </span>
+                    <br/>
+                    <p style={{fontSize:'18px'}}>
+                <i>React.js, Next.js, Redux, AWS, Serverless, REST APIs, WordPress, TypeScript, JavaScript, Python, NoSQL/SQL, Node, Git</i>
+                </p>
+                  </p>
+                </div>
+                <p>
+                Worked on building React and Next.js components for the customer-facing web apps, which improved the user’s average page activity. 
+                Designed and implemented RESTful APIs in both Typescript and Python that served data to and from the JavaScript frontend and AWS backend.
+                Supported development teams by building, maintaining, and scaling AWS infrastructure to support various applications.
+                Collaborated with an agile team to help architect and scope feature requests to ensure that the biggest impact features get prioritized
+             
+                </p>
+              </div> {/* end resume-block */}
               <div className="resume-block">
                 <div className="resume-block__header">
                   <h4 className="h3">Store Upward</h4>
                   <p className="resume-block__header-meta">
                     <span>Software Engineer Intern</span> 
-                    <span className="resume-block__header-date">
+                    <span className="resume-block__header-date" >
                       May 2021 - Aug 2021
                     </span>
+                    <br/>
+                    <p className="masonPtag">
+                    <i>React.js, Python, TensorFlow, PostgreSQL, and KOA web-framework.</i>
+                    </p>
                   </p>
                 </div>
                 <p>
-                Designed and created a web application that would search for available products across many vendors to host on
-                one centralized site.<br/>
-                <i>React.js, Python, TensorFlow, PostgreSQL, and KOA web-framework.</i>
+                Built a React web application from the ground up, that centralized products from decentralized vendors for
+                a more efficient user experience. Designed and implemented multiple web crawlers to insert over 3M products into a PostgreSQL database backlog. 
+                Developed and trained TensorFlow AI models to accurately categorize products.
+                Collaborated with an agile team of 3 to architect and implement features to meet both technical and business goals.
+                 <br/>
+
                 </p>
               </div> {/* end resume-block */}
               <hr/>
               <div className="resume-block">
                 <div className="resume-block__header">
-                  <h4 className="h3">Our Daily Bread Ministries</h4>
+                <a href="https://odb.org" ><h4 className="h3"> Our Daily Bread Ministries</h4> </a> 
                   <p className="resume-block__header-meta">
-                    <span>Web Developer/Dev Ops Intern</span> 
+                    <span> Software Engineer/Dev Ops Intern</span> 
                     <span className="resume-block__header-date">
                       February 2021 - May 2021
                     </span>
+                    <p style={{fontSize:'18px'}}>
+                    <i>React.js, Typescript, Serverless, AWS, Cypress, Node, Git</i>
+                    </p>
                   </p>
                 </div>
                 <p>
-                Working with the Dev Ops team and Front-end teams, developed a cached Serverless API,
-                made a React.js components which stored cookies, and improved the appearance 
-                and functionality of the company's site <a href="https://www.odb.org" target="_blank">www.odb.org.</a>
-                <br/>
-                <i>React.js, Serverless, AWS, Cypress, Node, Git</i>
+                Implemented solutions that improved the SEO across the site, focusing on the landing page.
+                Built a Serverless cached REST API end point that acted as a proxy for YouTube search results.
+                Collaborated on designing, scoping, and implementing features on a SAFe Agile scrum team.
                 </p>
               </div> {/* end resume-block */}
             </div>
@@ -119,48 +149,32 @@ const Resume = props => {
             <div className="column large-9 tab-12">
               <div className="resume-block">
                 <p>
-                  Mason worked with teams that handled the Front-end, Middle-ware, and Back-end services while at Our Daily Bread Ministries
-                  as well as during his time as the Software lead on his project at Store Upward. The following shows his exposure to and experience with the technologies used during these times.
+                I gained experience in the following technologies through working with teams that handled the Front-end, Middle-ware, and Back-end services. Collaborating with multiple teams during my time as a Software Engineer at Our Daily Bread Ministries
+                  as well the time I spent as the Software lead for the project I was assgined at Store Upward, has provided me with valuable experience in these areas.
                 </p>
-                <ul className="skill-bars-fat">
+                <div className="row" style={{display: 'flex', justifyContent: 'center'}}>
                   
-                  <li>
-                    <div className="progress percent75" />
-                    <strong>React.js</strong>
-                  </li>
-                  <li>
-                    <div className="progress percent75" />
-                    <strong>Angular.js</strong>
-                  </li>
-                  <li>
-                    <div className="progress percent85" />
-                    <strong>Javascript</strong>
-                  </li>
-                  <li>
-                    <div className="progress percent85" />
-                    <strong>HTML & CSS</strong>
-                  </li>
-                  <li>
-                    <div className="progress percent65" />
-                    <strong>Python</strong>
-                  </li>
-                  <li>
-                    <div className="progress percent90" />
-                    <strong>Git</strong>
-                  </li>
-                  <li>
-                    <div className="progress percent65" />
-                    <strong>SQL</strong>
-                  </li>
-                  <li>
-                    <div className="progress percent75" />
-                    <strong>NoSQL</strong>
-                  </li>
-                  <li>
-                    <div className="progress percent70" />
-                    <strong>APIs</strong>
-                  </li>
-                </ul>
+                  <strong className="btn masonBtn" >React.js</strong>
+                  <strong className="btn masonBtn"  >Angular</strong>  
+                  <strong className="btn masonBtn"  >Next.js</strong> 
+                  <strong className="btn masonBtn" >Javascript</strong>
+                  <strong className="btn masonBtn" >TypeScript</strong>
+                  <strong className="btn masonBtn" >Python</strong>
+                  <strong className="btn masonBtn" >HTML & CSS</strong>       
+                  <strong className="btn masonBtn" >REST APIs</strong>
+                  <strong className="btn masonBtn" >Serverless</strong>
+                  <strong className="btn masonBtn" >Redux</strong>
+                  <strong className="btn masonBtn" >AWS</strong>
+                  <strong className="btn masonBtn" >Node.js</strong>
+                  <strong className="btn masonBtn" >Express</strong>
+                  <strong className="btn masonBtn" >KOA</strong>
+                  <strong className="btn masonBtn" >Git</strong>      
+                  <strong className="btn masonBtn" >SQL</strong>
+                  <strong className="btn masonBtn" >NoSQL</strong>
+                 
+
+                  
+              </div>
               </div> {/* end resume-block */}
             </div>
           </div> {/* s-resume__section */}
