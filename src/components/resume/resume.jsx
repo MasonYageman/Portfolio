@@ -10,6 +10,7 @@ const Resume = props => {
             <div className="column large-9 tab-12">
             <div className="resume-block">
                 <div className="resume-block__header">
+                <img src="/images/ODBM-Mark_RGB.png" height="100" width="100" alt=""/>
                 <a href="https://odb.org" ><h4 className="h3"> Our Daily Bread Ministries</h4> </a> 
                   <p className="resume-block__header-meta">
                     <span> Software Engineer</span> 
@@ -30,9 +31,11 @@ const Resume = props => {
              
                 </p>
               </div> {/* end resume-block */}
+              <hr/>
               <div className="resume-block">
                 <div className="resume-block__header">
-                  <h4 className="h3">Store Upward</h4>
+                <img src="/images/StoreUpwardLogo.svg" height="300" width="300" alt=""/>  
+                <a href="https://storeupward.com/" > <h4 className="h3">Store Upward</h4></a>
                   <p className="resume-block__header-meta">
                     <span>Software Engineer Intern</span> 
                     <span className="resume-block__header-date" >
@@ -56,6 +59,7 @@ const Resume = props => {
               <hr/>
               <div className="resume-block">
                 <div className="resume-block__header">
+                  <img src="/images/ODBM-Mark_RGB.png" height="100" width="100" alt=""/>
                 <a href="https://odb.org" ><h4 className="h3"> Our Daily Bread Ministries</h4> </a> 
                   <p className="resume-block__header-meta">
                     <span> Software Engineer/Dev Ops Intern</span> 
