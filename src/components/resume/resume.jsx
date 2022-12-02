@@ -11,7 +11,7 @@ const Resume = props => {
             <div className="resume-block">
                 <div className="resume-block__header">
                 <img src="/images/ODBM-Mark_RGB.png" height="100" width="100" alt=""/>
-                <a href="https://odb.org" ><h4 className="h3"> Our Daily Bread Ministries</h4> </a> 
+                <h4 className="h3"><a href="https://odb.org" target="_blank" rel="noreferrer"> Our Daily Bread Ministries </a></h4> 
                   <p className="resume-block__header-meta">
                     <span> Software Engineer</span> 
                     <span className="resume-block__header-date">
@@ -35,7 +35,7 @@ const Resume = props => {
               <div className="resume-block">
                 <div className="resume-block__header">
                 <img src="/images/StoreUpwardLogo.svg" height="300" width="300" alt=""/>  
-                <a href="https://storeupward.com/" > <h4 className="h3">Store Upward</h4></a>
+                <h4 className="h3"><a href="https://storeupward.com/" target="_blank" rel="noreferrer"> Store Upward</a></h4>
                   <p className="resume-block__header-meta">
                     <span>Software Engineer Intern</span> 
                     <span className="resume-block__header-date" >
@@ -60,7 +60,7 @@ const Resume = props => {
               <div className="resume-block">
                 <div className="resume-block__header">
                   <img src="/images/ODBM-Mark_RGB.png" height="100" width="100" alt=""/>
-                <a href="https://odb.org" ><h4 className="h3"> Our Daily Bread Ministries</h4> </a> 
+                 <h4 className="h3"> <a href="https://odb.org" target="_blank" rel="noreferrer">Our Daily Bread Ministries</a> </h4> 
                   <p className="resume-block__header-meta">
                     <span> Software Engineer/Dev Ops Intern</span> 
                     <span className="resume-block__header-date">
@@ -87,6 +87,7 @@ const Resume = props => {
             <div className="column large-9 tab-12">
               <div className="resume-block">
                 <div className="resume-block__header">
+                <img src="/images/WSLogo.jpeg" height="150" width="150" alt=""/>
                   <h4 className="h3">Wayne State University</h4>
                   <p className="resume-block__header-meta">
                     <span>B.S. in Computer Science</span> 
@@ -112,7 +113,7 @@ const Resume = props => {
               <div className="column large-9 tab-12">
                 <div className="resume-block">
                   <div className="resume-block__header">
-                    <h4 className="h3">Line Up Task Manager</h4>
+                    <h4 className="h3"><a href='http://lineup.ga' target='_blank' rel="noreferrer">Line Up Task Manager</a></h4>
                     <p className="resume-block__header">
                       <span>Angular, Google Firestore, JavaScript, Node, Git, Mocha   </span> 
                       <span className="resume-block__header-date">

@@ -16,9 +16,9 @@ const Hero = (props)=>{
                   and learn more <a className="smoothscroll" href="#about">about me</a>.
                 </h3>
                 <div className="s-hero__content-social">
-                  <a><i className="fab fa-dribbble" />Socials:</a>
-                  <a href="https://github.com/MasonYageman"target="_blank"><i className="fab fa-behance"  />GitHub</a>
-                  <a href="https://www.linkedin.com/in/mason-yageman-802402194/"target="_blank"><i className="fab fa-linkedin" />Linkedin</a>
+                  <a href="/"><i className="fab fa-dribbble" />Socials:</a>
+                  <a href="https://github.com/MasonYageman"target="_blank" rel="noreferrer"><i className="fab fa-behance"  />GitHub</a>
+                  <a href="https://www.linkedin.com/in/mason-yageman-802402194/"target="_blank" rel="noreferrer"><i className="fab fa-linkedin" />Linkedin</a>
                 </div>
               </div> {/* end s-hero__content-about */}
             </div>
