@@ -113,7 +113,7 @@ const Resume = props => {
               <div className="column large-9 tab-12">
                 <div className="resume-block">
                   <div className="resume-block__header">
-                    <h4 className="h3"><a href='http://lineup.ga' target='_blank' rel="noreferrer">Line Up Task Manager</a></h4>
+                    <h4 className="h3"><a href='http://lineuptaskmanager.tk' target='_blank' rel="noreferrer">Line Up Task Manager</a></h4>
                     <p className="resume-block__header">
                       <span>Angular, Google Firestore, JavaScript, Node, Git, Mocha   </span> 
                       <span className="resume-block__header-date">
@@ -130,7 +130,7 @@ const Resume = props => {
                 <hr/>
                 <div className="resume-block">
                   <div className="resume-block__header">
-                    <h4 className="h3"><a href="masonyageman.pythonanywhere.com/covid/covidCases">Covid-19 Statistic Web App</a></h4>
+                    <h4 className="h3"><a href="http://masonyageman.pythonanywhere.com/covid/covidCases" target='_blank' rel="noreferrer">Covid-19 Statistic Web App</a></h4>
                     <p className="resume-block__header">
                       <span>Python, Django, JSON </span> 
                       <span className="resume-block__header-date">
@@ -139,7 +139,7 @@ const Resume = props => {
                     </p>
                   </div>
                   <p>
-                  Django Web Application that uses REST APIs to display an updated 
+                  Simple Django Web Application that uses REST APIs to display an updated static
                   graph showing the confirmed cases of covid-19 in the U.S. compared to Italy.
                   </p>
                 </div> {/* end resume-block */}
