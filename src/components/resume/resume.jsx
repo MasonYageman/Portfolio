@@ -130,7 +130,7 @@ const Resume = props => {
                 <hr/>
                 <div className="resume-block">
                   <div className="resume-block__header">
-                    <h4 className="h3">Covid-19 Statistic Web App</h4>
+                    <h4 className="h3"><a href="masonyageman.pythonanywhere.com/covid/covidCases">Covid-19 Statistic Web App</a></h4>
                     <p className="resume-block__header">
                       <span>Python, Django, JSON </span> 
                       <span className="resume-block__header-date">
