@@ -24,10 +24,11 @@ const Resume = props => {
                   </p>
                 </div>
                 <p>
-                Worked on building React and Next.js components for the customer-facing web apps, which improved the user’s average page activity. 
-                Designed and implemented RESTful APIs in both Typescript and Python that served data to and from the JavaScript frontend and AWS backend.
+                Built React and Next.js components for the customer-facing web apps, which improved the user’s average page activity. 
+                Designed and implemented RESTful APIs in both Typescript and Python using AWS Lambda.
                 Supported development teams by building, maintaining, and scaling AWS infrastructure to support various applications.
-                Collaborated with an agile team to help architect and scope feature requests to ensure that the biggest impact features get prioritized
+                Collaborated with an agile team to help architect and scope feature requests to ensure that the biggest impact features get prioritized. 
+                Developed user and admin facing features on various WordPress sites which focused on user engagement.
              
                 </p>
               </div> {/* end resume-block */}
@@ -113,7 +114,7 @@ const Resume = props => {
               <div className="column large-9 tab-12">
                 <div className="resume-block">
                   <div className="resume-block__header">
-                    <h4 className="h3"><a href='http://lineuptaskmanager.tk' target='_blank' rel="noreferrer">Line Up Task Manager</a></h4>
+                    <h4 className="h3"><a href='https://lineuptaskmanager.web.app/' target='_blank' rel="noreferrer">Line Up Task Manager</a></h4>
                     <p className="resume-block__header">
                       <span>Angular, Google Firestore, JavaScript, Node, Git, Mocha   </span> 
                       <span className="resume-block__header-date">
@@ -139,8 +140,8 @@ const Resume = props => {
                     </p>
                   </div>
                   <p>
-                  Simple Django Web Application that uses REST APIs to display an updated static
-                  graph showing the confirmed cases of covid-19 in the U.S. compared to Italy.
+                  Simple Django Web Application that uses REST APIs to display an updated
+                  graph showing the confirmed cases of Covid-19 in the U.S. from January 2020 - March 2021
                   </p>
                 </div> {/* end resume-block */}
               </div>
@@ -165,9 +166,11 @@ const Resume = props => {
                   <strong className="btn masonBtn" >Javascript</strong>
                   <strong className="btn masonBtn" >TypeScript</strong>
                   <strong className="btn masonBtn" >Python</strong>
+                  <strong className="btn masonBtn" >PHP</strong>
                   <strong className="btn masonBtn" >HTML & CSS</strong>       
                   <strong className="btn masonBtn" >REST APIs</strong>
                   <strong className="btn masonBtn" >Serverless</strong>
+                  <strong className="btn masonBtn" >WordPress</strong>
                   <strong className="btn masonBtn" >Redux</strong>
                   <strong className="btn masonBtn" >AWS</strong>
                   <strong className="btn masonBtn" >Node.js</strong>

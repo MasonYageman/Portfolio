@@ -10,7 +10,7 @@ const Hero = (props)=>{
               <div className="s-hero__content-about">
                 <h1>I'm Mason Yageman.</h1>
                 <h3>
-                  I'm a <span>Software Engineer</span>, passionate about turning big ideas into reality. I have ~2 years
+                  I'm a <span>Software Engineer</span>, passionate about turning big ideas into reality. I have ~3 years
                   of experience working with various frontend frameworks, Multpile API frameworks, and developing with AWS in order to 
                   build high scale applications. Let's <a className="smoothscroll" href="#about"> start scrolling </a>
                   and learn more <a className="smoothscroll" href="#about">about me</a>.
